@@ -14,7 +14,7 @@
 #define typename(x) _Generic((x) ,int : "int",float : "float" , char : "char" , char* : "charp")
 #define sout printLn
 #define print printf
-#define for(T,C,M) for(int T = C;T < M;T++)
+#define foreach(T,C,M) for(int T = C;T < M;T++)
 
 int nextInt()
 {

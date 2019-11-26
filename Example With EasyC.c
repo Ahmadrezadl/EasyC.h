@@ -12,7 +12,7 @@ int main(){
 	printLn("Oh, Your Are %s" , age < 20 ? "a Teenager\nLet's Count:" : age <45? "an Adult\nLet's Count:" : "So Old\nLet's Count:");
 	
 	//Counting:
-	for(i,0,10)
+	foreach(i,0,10)
 		printInt(i+1,'\n');
 		
 	//Ask yes or no question:
