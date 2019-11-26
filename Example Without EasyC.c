@@ -2,14 +2,24 @@
 #include <stdbool.h>
 
 int main(){
+	
+	//Name Asking:
 	printf("Enter your name:");
 	char name[200];
 	scanf("%s" , name);
 	printf("Hi %s! Welcome to JavaStyle Example.\n" , name);
+	
+	//Age Asking:
 	printf("Enter Your Age: ");
 	int age;
 	scanf("%d" , &age);
-	printf("Oh, Your Are %s" , age < 20 ? "a Teenager\n" : age <45? "an Adult\n" : "So Old\n");
+	printf("Oh, Your Are %s" , age < 20 ? "a Teenager\n" : age <45? "an Adult\n" : "So Old\nLet's Count:\n'");
+	
+	//Couting:
+	for(int i = 0;i < 10;i++)
+	printf("%d\n" , i+1);
+	
+	//Ask yes or no question:
 	printf("Do you like our header file? ");
 	bool like;
 	char n[10];

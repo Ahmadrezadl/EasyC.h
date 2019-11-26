@@ -14,6 +14,7 @@
 #define typename(x) _Generic((x) ,int : "int",float : "float" , char : "char" , char* : "charp")
 #define sout printLn
 #define print printf
+#define for(T,C,M) for(int T = C;T < M;T++)
 
 int nextInt()
 {
@@ -49,7 +50,10 @@ char* nextWord()
 	scanf("%s" , n);
 	return n;
 }
-
+void printInt(int n,char c)
+{
+	printf("%d%c" , n , c);
+}
 bool nextBool(){
 	char n[20];
 	scanf("%s" , &n);
