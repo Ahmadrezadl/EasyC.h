@@ -19,4 +19,7 @@ nextBool(); //Scans Next Float and returns it.
 nextChar(); //Scans Next char and returns it. Avoids '\n' & ' ' (white space)
 //etc...
 
+//Easy counting for:
+for(i,0,10)
+n[i] = nextInt();
 ```
