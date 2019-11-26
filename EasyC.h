@@ -14,6 +14,7 @@
 #define typename(x) _Generic((x) ,int : "int",float : "float" , char : "char" , char* : "charp")
 #define sout printLn
 #define print printf
+
 int nextInt()
 {
 	int n;
@@ -50,10 +51,11 @@ char* nextWord()
 }
 
 bool nextBool(){
-	int n;
-	scanf("%d" , &n);
-	if(n) return true;
-	else return false;
+	char n[20];
+	scanf("%s" , &n);
+	if(!strcmp(n,"1") || !strcmp(n,"yes") || !strcmp(n,"y") || !strcmp("Yes" , n) || s!trcmp("Y" , n) || !strcmp("true", n) || !strcmp("True", n) || !strcmp("yeah" , n)|| !strcmp("Yeah" , n))
+	return true;
+	return false;
 }
 
 char * __cdecl next(char * __restrict__ _Dest)
