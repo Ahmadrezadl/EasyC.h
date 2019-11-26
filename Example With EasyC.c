@@ -15,8 +15,13 @@ int main(){
 	foreach(i,0,10)
 		printInt(i+1,'\n');
 		
+	//Easier Counting:
+	count(20)
+		print("_");
+	sout();
+	
 	//Ask yes or no question:
-	print("Do you like our header file? ");
+	printLn("Do you like our header file? ");
 	printf(nextBool() ? "Great, Thanks!" : "Why not? Contact @Ahmadrezadl for suggestions");
 	
 }

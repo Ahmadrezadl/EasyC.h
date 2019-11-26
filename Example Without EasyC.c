@@ -19,6 +19,12 @@ int main(){
 	for(int i = 0;i < 10;i++)
 	printf("%d\n" , i+1);
 	
+	//Easier Counting? :
+	int counter = 20;
+	while(counter--)
+		printf("_");
+	printf("\n");
+	
 	//Ask yes or no question:
 	printf("Do you like our header file? ");
 	bool like;

@@ -15,6 +15,7 @@
 #define sout printLn
 #define print printf
 #define foreach(T,C,M) for(int T = C;T < M;T++)
+#define count(X) for(int COUNTING_DL = 0;COUNTING_DL < X;COUNTING_DL++)
 
 int nextInt()
 {
@@ -77,11 +78,10 @@ int printLn(const char* format, ...){
 	result = vsprintf(buffer,format,args);
 	
 	va_end(args);
-	if(result > 0)
+//	if(result > 0)
 	{
 		result = puts(buffer);
 	}
-	
 	return result;
 	
 }
