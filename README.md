@@ -1,5 +1,5 @@
 # Warning ⚠
-Don't incluce <stdio.h> anymore 😨
+Don't include <stdio.h> anymore 😨
 
 EasyC.h is Here 😎
 
