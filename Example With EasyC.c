@@ -1,0 +1,12 @@
+#include "EasyC.h"
+
+int main(){
+	print("Enter Your Name:");
+	char name[200];
+	printLn("Hi %s! Welcome to JavaStyle Example." , next(name));
+	print("Enter Your Age: ");
+	int age = nextInt();
+	printLn("Oh, Your Are %s" , age < 20 ? "a Teenager" : age <45? "an Adult" : "So Old");
+	print("Do you like our header file? ");
+	printf(nextBool() ? "Great, Thanks!" : "Why not? Contact @Ahmadrezadl for suggestions");
+}
