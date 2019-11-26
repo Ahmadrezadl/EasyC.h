@@ -33,7 +33,7 @@ double nextDouble(){
 }
 char nextChar(){
 	char n = ' ';
-	while(n == ' ')scanf("%c" , &n);
+	while(n == ' ' || n == '\n')scanf("%c" , &n);
 	return n;
 }
 
@@ -53,7 +53,7 @@ char* nextWord()
 bool nextBool(){
 	char n[20];
 	scanf("%s" , &n);
-	if(!strcmp(n,"1") || !strcmp(n,"yes") || !strcmp(n,"y") || !strcmp("Yes" , n) || s!trcmp("Y" , n) || !strcmp("true", n) || !strcmp("True", n) || !strcmp("yeah" , n)|| !strcmp("Yeah" , n))
+	if(!strcmp(n,"1") || !strcmp(n,"yes") || !strcmp(n,"y") || !strcmp("Yes" , n) || !strcmp("Y" , n) || !strcmp("true", n) || !strcmp("True", n) || !strcmp("yeah" , n)|| !strcmp("Yeah" , n))
 	return true;
 	return false;
 }
