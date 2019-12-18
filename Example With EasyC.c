@@ -14,10 +14,14 @@ int main(){
 	//Counting:
 	foreach(i,10)
 		printInt(i+1,'\n');
-		
+
 	//Easier Counting:
 	count(20)
 		print("_");
+	
+	int a[] = {2,3,1,4,5};
+	bubbleSort(a,5);
+	endl();
 	
 	//Ask yes or no question:
 	printLn("Do you like our header file? ");

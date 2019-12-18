@@ -25,6 +25,17 @@ int main(){
 		printf("_");
 	printf("\n");
 	
+	int a[] = {2,3,1,4,5};
+    int i, j; 
+    for (i = 0; i < 5-1; i++)        
+       for (j = 0; j < 5-i-1; j++)  
+           if (a[j] > a[j+1]) 
+              {
+            	 int temp = a[j];
+            	 a[j] = a[j+1];
+            	 a[j+1] = temp;
+              }
+
 	//Ask yes or no question:
 	printf("Do you like our header file? ");
 	bool like;
