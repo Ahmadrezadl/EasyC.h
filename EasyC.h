@@ -12,9 +12,8 @@
 #include <stdarg.h>
 #include <string.h>
 #define typename(x) _Generic((x) ,int : "int",float : "float" , char : "char" , char* : "charp")
-#define sout printLn
 #define print printf
-#define foreach(T,C,M) for(int T = C;T < M;T++)
+#define foreach(X,Y) for(int X = 0;X < Y;X++)
 #define count(X) for(int COUNTING_DL = 0;COUNTING_DL < X;COUNTING_DL++)
 
 int nextInt()

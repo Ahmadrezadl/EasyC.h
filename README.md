@@ -1,4 +1,4 @@
-# Warning ⚠
+﻿# Warning ⚠
 Don't include <stdio.h> anymore 😨
 
 EasyC.h is Here 😎
@@ -19,7 +19,7 @@ nextBool(); //Scans Next Float and returns it.
 nextChar(); //Scans Next char and returns it. Avoids '\n' & ' ' (white space)
 //etc...
 
-//Easy counting for:
-foreach(i,0,10)
+//Easy for (i = 0 to n):
+foreach(i,10)
 n[i] = nextInt();
 ```
