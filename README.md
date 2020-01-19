@@ -15,11 +15,14 @@ You can compare [example with EasyC](https://github.com/Ahmadrezadl/EasyC.h/blob
 //Easy Scanners Like:
 nextInt(); //Scans Next Int and returns it.
 next(name); //Scans name (String) and returns it.
-nextBool(); //Scans Next Float and returns it.
+nextBool(); //Scans Next Boolean and returns it.
 nextChar(); //Scans Next char and returns it. Avoids '\n' & ' ' (white space)
 //etc...
 
 //Easy for (i = 0 to n):
 foreach(i,10)
 n[i] = nextInt();
+
+//Famous sorts in your pocket:
+bubbleSort(n,10)
 ```
